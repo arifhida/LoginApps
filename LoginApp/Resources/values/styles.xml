@@ -20,6 +20,7 @@
          which is used to tint widgets -->
     <item name="colorAccent">@color/accent</item>
     <item name="colorButtonNormal">@color/textIcon</item>
+    <item name="android:buttonStyle">@style/buttonStyle</item>
     <!-- You can also set colorControlNormal, colorControlActivated
          colorControlHighlight and colorSwitchThumbNormal. -->
     
@@ -35,5 +36,17 @@
     <!-- <item name="android:elevation">0dp</item> -->
     <!-- Support library compatibility -->
     <item name="elevation">0dp</item>
+  </style>
+  <style name="buttonStyle" parent="style/Widget.AppCompat.Button">    
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:gravity">center</item>    
+    <item name="android:textSize">30dp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:shadowColor">#000000</item>
+    <item name="android:shadowDx">1</item>
+    <item name="android:shadowDy">1</item>
+    <item name="android:shadowRadius">2</item>
+    <item name="android:layout_marginLeft">20dp</item>
+    <item name="android:layout_marginRight">20dp</item>
   </style>
 </resources>
