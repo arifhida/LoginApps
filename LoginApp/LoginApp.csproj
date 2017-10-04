@@ -90,6 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="activity\MainActivity.cs" />
+    <Compile Include="eventargs\OnSignUpEventArgs.cs" />
     <Compile Include="fragment\dialog_SignUp.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -133,6 +134,8 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\drawable\ProgressBarStyle.xml" />
+    <AndroidResource Include="Resources\anim\slide_up.xml" />
+    <AndroidResource Include="Resources\anim\slide_down.xml" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

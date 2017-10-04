@@ -79,6 +79,12 @@ namespace LoginApp
 			// aapt resource value: 0x7f04000f
 			public const int design_snackbar_out = 2130968591;
 			
+			// aapt resource value: 0x7f040010
+			public const int slide_down = 2130968592;
+			
+			// aapt resource value: 0x7f040011
+			public const int slide_up = 2130968593;
+			
 			static Animation()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -3597,6 +3603,9 @@ namespace LoginApp
 			
 			// aapt resource value: 0x7f090163
 			public const int Base_Widget_Design_TabLayout = 2131296611;
+			
+			// aapt resource value: 0x7f09017e
+			public const int DialogAnimation = 2131296638;
 			
 			// aapt resource value: 0x7f09001e
 			public const int Platform_AppCompat = 2131296286;
